@@ -1,0 +1,1433 @@
+29-Apr-2023 02:26:37.964 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:26:37.964 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:26:37.967 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@42f3156d')
+29-Apr-2023 02:32:53.413 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 02:32:53.413 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 02:32:57.967 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:32:57.967 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:32:57.969 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@470a696f')
+29-Apr-2023 02:39:30.696 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 02:39:30.696 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 02:39:37.792 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:39:37.792 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:39:37.794 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1d7f7be7')
+29-Apr-2023 02:39:45.002 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Marking servlet [login] as unavailable
+29-Apr-2023 02:39:45.002 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [login]
+	java.lang.ClassCastException: class login cannot be cast to class jakarta.servlet.Servlet (login is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @4ae33a11; jakarta.servlet.Servlet is in unnamed module of loader java.net.URLClassLoader @722c41f4)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1071)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:789)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 02:47:14.410 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 02:47:14.410 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 02:47:18.010 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:47:18.010 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:47:18.012 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2756c0a7')
+29-Apr-2023 02:50:13.145 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 02:50:13.145 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 02:50:17.660 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:50:17.661 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:50:17.663 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@24bdb479')
+29-Apr-2023 02:50:44.515 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Marking servlet [login] as unavailable
+29-Apr-2023 02:50:44.515 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [login]
+	java.lang.ClassCastException: class login cannot be cast to class jakarta.servlet.Servlet (login is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @5049d8b2; jakarta.servlet.Servlet is in unnamed module of loader java.net.URLClassLoader @722c41f4)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1071)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:789)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 02:54:47.165 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 02:54:47.166 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 02:54:51.499 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:54:51.499 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:54:51.501 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7d3430a7')
+29-Apr-2023 02:56:45.200 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 02:56:45.200 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 02:56:48.574 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 02:56:48.574 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 02:56:48.576 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1ddae9b5')
+29-Apr-2023 02:57:34.788 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [login] in context with path [/frequentflier] threw exception [Servlet execution threw an exception] with root cause
+	java.lang.ClassNotFoundException: oracle.jdbc.OracleDriver
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1449)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		at login.doGet(login.java:24)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 03:04:04.717 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:04:04.717 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:04:09.873 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:04:09.873 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:04:09.875 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6c8bca63')
+29-Apr-2023 03:07:25.409 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:07:25.409 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:07:30.858 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:07:30.859 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:07:30.862 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7e3f95fe')
+29-Apr-2023 03:07:36.044 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [login] in context with path [/frequentflier] threw exception [Servlet execution threw an exception] with root cause
+	java.lang.ClassNotFoundException: oracle.jdbc.OracleDriver
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1449)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		at login.doGet(login.java:26)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 03:07:57.908 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [login] in context with path [/frequentflier] threw exception [Servlet execution threw an exception] with root cause
+	java.lang.ClassNotFoundException: oracle.jdbc.OracleDriver
+		at login.doGet(login.java:26)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 03:12:02.505 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:12:02.505 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:12:06.067 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:12:06.067 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:12:06.069 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@756808cc')
+29-Apr-2023 03:12:47.951 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:12:47.951 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:12:51.771 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:12:51.771 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:12:51.773 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@234cd86c')
+29-Apr-2023 03:30:44.943 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:30:44.943 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:30:48.576 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:30:48.576 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:30:48.577 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@52ecc989')
+29-Apr-2023 03:31:20.452 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:31:20.452 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:31:26.668 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:31:26.668 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:31:26.670 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@68e2d03e')
+29-Apr-2023 03:31:52.732 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [2] in the jsp file: [/Info.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%
+2:   out.print("Welcome!")  
+3: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [2] in the jsp file: [/Info.jsp]
+Syntax error, insert ";" to complete Statement
+1: <%
+2:   out.print("Welcome!")  
+3: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 03:33:20.353 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:33:20.353 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:33:20.355 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3dec3f87')
+29-Apr-2023 03:33:21.405 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:33:21.405 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:33:28.397 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [2] in the jsp file: [/Info.jsp]
+s cannot be resolved to a type
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+An error occurred at line: [3] in the jsp file: [/Info.jsp]
+Duplicate local variable out
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+An error occurred at line: [3] in the jsp file: [/Info.jsp]
+Syntax error on token ".", ; expected
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+An error occurred at line: [3] in the jsp file: [/Info.jsp]
+The method write(char) is undefined for the type Info_jsp
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [2] in the jsp file: [/Info.jsp]
+s cannot be resolved to a type
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+An error occurred at line: [3] in the jsp file: [/Info.jsp]
+Duplicate local variable out
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+An error occurred at line: [3] in the jsp file: [/Info.jsp]
+Syntax error on token ".", ; expected
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+An error occurred at line: [3] in the jsp file: [/Info.jsp]
+The method write(char) is undefined for the type Info_jsp
+1: <%
+2:   out.print("Welcome!");s
+3: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 03:34:07.900 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:34:07.900 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:34:12.370 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:34:12.370 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:34:12.372 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2055833f')
+29-Apr-2023 03:34:34.793 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:34:34.793 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:34:34.795 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@32ab408e')
+29-Apr-2023 03:34:35.927 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:34:35.927 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:35:12.771 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 03:35:12.771 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 03:35:22.564 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 03:35:22.565 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 03:35:22.567 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@39c87b42')
+29-Apr-2023 04:05:41.548 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:05:41.548 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:05:47.127 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:05:47.127 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:05:47.129 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f8f1712')
+29-Apr-2023 04:06:19.316 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:06:19.316 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:06:24.226 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:06:24.226 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:06:24.228 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@68e2d03e')
+29-Apr-2023 04:07:11.572 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [13] in the jsp file: [/Info.jsp]
+req cannot be resolved
+10: 
+11:         <%
+12:             try{
+13:                 String pid = req.getParameter("pid");
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+
+
+An error occurred at line: [15] in the jsp file: [/Info.jsp]
+DriverManager cannot be resolved
+12:             try{
+13:                 String pid = req.getParameter("pid");
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+
+
+An error occurred at line: [17] in the jsp file: [/Info.jsp]
+Connection cannot be resolved to a type
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+
+
+An error occurred at line: [17] in the jsp file: [/Info.jsp]
+DriverManager cannot be resolved
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+
+
+An error occurred at line: [18] in the jsp file: [/Info.jsp]
+Statement cannot be resolved to a type
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+21:                 
+
+
+An error occurred at line: [20] in the jsp file: [/Info.jsp]
+ResultSet cannot be resolved to a type
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+21:                 
+22:                 if (rs.next() == false)
+23:                 {
+
+
+An error occurred at line: [20] in the jsp file: [/Info.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+21:                 
+22:                 if (rs.next() == false)
+23:                 {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [13] in the jsp file: [/Info.jsp]
+req cannot be resolved
+10: 
+11:         <%
+12:             try{
+13:                 String pid = req.getParameter("pid");
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+
+
+An error occurred at line: [15] in the jsp file: [/Info.jsp]
+DriverManager cannot be resolved
+12:             try{
+13:                 String pid = req.getParameter("pid");
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+
+
+An error occurred at line: [17] in the jsp file: [/Info.jsp]
+Connection cannot be resolved to a type
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+
+
+An error occurred at line: [17] in the jsp file: [/Info.jsp]
+DriverManager cannot be resolved
+14:                 
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+
+
+An error occurred at line: [18] in the jsp file: [/Info.jsp]
+Statement cannot be resolved to a type
+15:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+16:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+21:                 
+
+
+An error occurred at line: [20] in the jsp file: [/Info.jsp]
+ResultSet cannot be resolved to a type
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+21:                 
+22:                 if (rs.next() == false)
+23:                 {
+
+
+An error occurred at line: [20] in the jsp file: [/Info.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+17:                 Connection conn = DriverManager.getConnection(url,"skasar","eedsupsu");
+18:                 Statement stmt = conn.createStatement();
+19: //                ResultSet rs = stmt.executeQuery("select * from Login where username='"+user+"' and passwd='"+pass+"'");
+20:                 ResultSet rs = stmt.executeQuery("SELECT P.pname, PA.total_points FROM Passengers P INNER JOIN Point_Accounts PA ON P.passid = PA.passid WHERE P.passid = '"+pid+"';")
+21:                 
+22:                 if (rs.next() == false)
+23:                 {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 04:10:11.750 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:10:11.750 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:10:16.287 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:10:16.287 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:10:16.289 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f8f1712')
+29-Apr-2023 04:10:34.187 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:10:34.187 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:10:38.101 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:10:38.101 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:10:38.103 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 04:29:54.462 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:29:54.462 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:29:58.585 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:29:58.585 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:29:58.586 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18ffca6c')
+29-Apr-2023 04:30:10.182 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:30:10.182 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:30:14.338 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:30:14.338 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:30:14.341 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@120aa40b')
+29-Apr-2023 04:51:02.310 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:51:02.310 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:51:07.041 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:51:07.042 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:51:07.044 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@310d57b1')
+29-Apr-2023 04:51:23.391 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:51:23.391 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:51:27.720 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:51:27.720 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:51:27.723 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@120aa40b')
+29-Apr-2023 04:55:18.783 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:55:18.783 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:55:26.572 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:55:26.572 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:55:26.574 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f8f1712')
+29-Apr-2023 04:55:42.008 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:55:42.008 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:55:45.787 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:55:45.787 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:55:45.791 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@39c87b42')
+29-Apr-2023 04:55:51.482 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/FlightDetails.jsp]
+The operator + is undefined for the argument type(s) String, void
+33:         conn.close();
+34: 
+35:     } catch (Exception e) {
+36:         out.println("Exception: " + e.printStackTrace());     
+37:     }
+38: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [36] in the jsp file: [/FlightDetails.jsp]
+The operator + is undefined for the argument type(s) String, void
+33:         conn.close();
+34: 
+35:     } catch (Exception e) {
+36:         out.println("Exception: " + e.printStackTrace());     
+37:     }
+38: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 04:57:23.804 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:57:23.805 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:57:31.160 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:57:31.161 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:57:31.163 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@310d57b1')
+29-Apr-2023 04:58:07.359 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 04:58:07.359 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 04:58:11.526 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 04:58:11.526 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 04:58:11.528 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6ad6443')
+29-Apr-2023 05:00:10.333 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:00:10.333 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:00:15.938 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:00:15.939 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:00:15.941 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18ffca6c')
+29-Apr-2023 05:00:54.341 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:00:54.341 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:00:59.750 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:00:59.750 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:00:59.753 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@32ab408e')
+29-Apr-2023 05:12:46.671 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:12:46.671 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:12:51.754 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:12:51.754 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:12:51.755 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2055833f')
+29-Apr-2023 05:13:26.179 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:13:26.179 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:13:30.411 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:13:30.411 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:13:30.414 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 05:13:55.934 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [11] in the jsp file: [/AwardIds.jsp]
+Duplicate local variable rs
+8:         Connection conn = DriverManager.getConnection(url, "skasar", "eedsupsu");
+9:         Statement stmt = conn.createStatement();
+10:         ResultSet rs = stmt.executeQuery("select flight_id, flight_miles, destination from flights where passid='"+pid+"'");
+11:         ResultSet rs = stmt.executeQuery("SELECT DISTINCT AWARD_ID FROM REDEMPTION_HISTORY WHERE PASSID = '"+pid+"'");
+12: 
+13:         
+14:         if (rs.next() == false) {
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [11] in the jsp file: [/AwardIds.jsp]
+Duplicate local variable rs
+8:         Connection conn = DriverManager.getConnection(url, "skasar", "eedsupsu");
+9:         Statement stmt = conn.createStatement();
+10:         ResultSet rs = stmt.executeQuery("select flight_id, flight_miles, destination from flights where passid='"+pid+"'");
+11:         ResultSet rs = stmt.executeQuery("SELECT DISTINCT AWARD_ID FROM REDEMPTION_HISTORY WHERE PASSID = '"+pid+"'");
+12: 
+13:         
+14:         if (rs.next() == false) {
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 05:14:54.119 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:14:54.120 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:14:58.558 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:14:58.558 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:14:58.560 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f8f1712')
+29-Apr-2023 05:15:10.793 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:15:10.793 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:15:17.126 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:15:17.126 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:15:17.128 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 05:37:20.446 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:37:20.446 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:37:24.414 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:37:24.414 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:37:24.417 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5939e24')
+29-Apr-2023 05:37:37.835 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:37:37.835 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:37:43.339 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:37:43.339 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:37:43.342 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@68e2d03e')
+29-Apr-2023 05:41:36.146 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:41:36.147 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:41:40.487 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:41:40.488 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:41:40.490 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18ffca6c')
+29-Apr-2023 05:41:57.295 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:41:57.295 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:42:01.186 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:42:01.186 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:42:01.189 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 05:57:49.239 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:57:49.240 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:57:53.490 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:57:53.491 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:57:53.493 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f8f1712')
+29-Apr-2023 05:58:08.502 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 05:58:08.502 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 05:58:12.258 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 05:58:12.258 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 05:58:12.260 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 06:25:51.372 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:25:51.372 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:25:55.602 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:25:55.602 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:25:55.604 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18ffca6c')
+29-Apr-2023 06:26:09.350 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:26:09.350 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:26:13.244 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:26:13.244 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:26:13.248 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@234cd86c')
+29-Apr-2023 06:28:13.807 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:28:13.807 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:28:17.364 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:28:17.364 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:28:17.366 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5dbab232')
+29-Apr-2023 06:28:31.801 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:28:31.802 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:28:36.047 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:28:36.047 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:28:36.049 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@120aa40b')
+29-Apr-2023 06:30:04.946 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/TransferPoints.jsp]
+The method executeUpdate(String) is undefined for the type Connection
+11:         Connection conn = DriverManager.getConnection(url, "skasar", "eedsupsu");
+12:         Statement stmt = conn.createStatement();
+13:         String updateSql1 = "UPDATE point_accounts SET total_points = total_points - '"+numPoints+"' WHERE passid = '"+src_id+"'";
+14:         stmt = conn.executeUpdate(updateSql1);
+15:         stmt.close();
+16:         
+17:         Statement stmt = conn.createStatement();
+
+
+An error occurred at line: [17] in the jsp file: [/TransferPoints.jsp]
+Duplicate local variable stmt
+14:         stmt = conn.executeUpdate(updateSql1);
+15:         stmt.close();
+16:         
+17:         Statement stmt = conn.createStatement();
+18:         String updateSql2 = "UPDATE point_accounts SET total_points = total_points + '"+numPoints+"' WHERE passid = '"+dest_id+"'";
+19:         stmt = conn.executeUpdate(updateSql2);
+20:         stmt.close();
+
+
+An error occurred at line: [19] in the jsp file: [/TransferPoints.jsp]
+The method executeUpdate(String) is undefined for the type Connection
+16:         
+17:         Statement stmt = conn.createStatement();
+18:         String updateSql2 = "UPDATE point_accounts SET total_points = total_points + '"+numPoints+"' WHERE passid = '"+dest_id+"'";
+19:         stmt = conn.executeUpdate(updateSql2);
+20:         stmt.close();
+21:         
+22:         conn.commit();
+
+
+An error occurred at line: [27] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved to a variable
+24:         out.println("Points transferred successfully!");
+25: 
+26:     } catch (Exception e) {
+27:             if (conn != null) {
+28:             conn.rollback();
+29:         }
+30:         out.println("Error transferring points: "+e.getMessage());
+
+
+An error occurred at line: [28] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved
+25: 
+26:     } catch (Exception e) {
+27:             if (conn != null) {
+28:             conn.rollback();
+29:         }
+30:         out.println("Error transferring points: "+e.getMessage());
+31:     }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the jsp file: [/TransferPoints.jsp]
+The method executeUpdate(String) is undefined for the type Connection
+11:         Connection conn = DriverManager.getConnection(url, "skasar", "eedsupsu");
+12:         Statement stmt = conn.createStatement();
+13:         String updateSql1 = "UPDATE point_accounts SET total_points = total_points - '"+numPoints+"' WHERE passid = '"+src_id+"'";
+14:         stmt = conn.executeUpdate(updateSql1);
+15:         stmt.close();
+16:         
+17:         Statement stmt = conn.createStatement();
+
+
+An error occurred at line: [17] in the jsp file: [/TransferPoints.jsp]
+Duplicate local variable stmt
+14:         stmt = conn.executeUpdate(updateSql1);
+15:         stmt.close();
+16:         
+17:         Statement stmt = conn.createStatement();
+18:         String updateSql2 = "UPDATE point_accounts SET total_points = total_points + '"+numPoints+"' WHERE passid = '"+dest_id+"'";
+19:         stmt = conn.executeUpdate(updateSql2);
+20:         stmt.close();
+
+
+An error occurred at line: [19] in the jsp file: [/TransferPoints.jsp]
+The method executeUpdate(String) is undefined for the type Connection
+16:         
+17:         Statement stmt = conn.createStatement();
+18:         String updateSql2 = "UPDATE point_accounts SET total_points = total_points + '"+numPoints+"' WHERE passid = '"+dest_id+"'";
+19:         stmt = conn.executeUpdate(updateSql2);
+20:         stmt.close();
+21:         
+22:         conn.commit();
+
+
+An error occurred at line: [27] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved to a variable
+24:         out.println("Points transferred successfully!");
+25: 
+26:     } catch (Exception e) {
+27:             if (conn != null) {
+28:             conn.rollback();
+29:         }
+30:         out.println("Error transferring points: "+e.getMessage());
+
+
+An error occurred at line: [28] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved
+25: 
+26:     } catch (Exception e) {
+27:             if (conn != null) {
+28:             conn.rollback();
+29:         }
+30:         out.println("Error transferring points: "+e.getMessage());
+31:     }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 06:31:59.831 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:31:59.831 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:32:04.922 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:32:04.923 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:32:04.925 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@52ecc989')
+29-Apr-2023 06:32:13.205 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:32:13.205 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:32:16.633 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:32:16.633 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:32:16.636 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 06:32:23.761 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved to a variable
+23: 
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+
+
+An error occurred at line: [27] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+30:     }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved to a variable
+23: 
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+
+
+An error occurred at line: [27] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+30:     }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 06:37:25.409 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:37:25.410 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:37:28.640 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:37:28.640 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:37:28.642 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@34a6d9db')
+29-Apr-2023 06:37:35.310 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:37:35.310 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:37:39.983 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:37:39.983 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:37:39.985 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@234cd86c')
+29-Apr-2023 06:37:56.990 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved to a variable
+23: 
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+
+
+An error occurred at line: [27] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+30:     }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [26] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved to a variable
+23: 
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+
+
+An error occurred at line: [27] in the jsp file: [/TransferPoints.jsp]
+conn cannot be resolved
+24:     } catch (Exception e) {
+25:         e.printStackTrace();
+26:         if (conn != null) {
+27:             conn.rollback();
+28:         }
+29:         out.println("Error transferring points: "+e.getMessage());
+30:     }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 06:39:52.660 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:39:52.660 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:39:56.837 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:39:56.837 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:39:56.838 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18ffca6c')
+29-Apr-2023 06:40:00.687 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:40:00.687 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:40:04.462 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:40:04.462 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:40:04.467 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@120aa40b')
+29-Apr-2023 06:40:21.169 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/TransferPoints.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+15:         // Deduct the specified number of points from the source passenger's point account
+16:         String updateSql1 = "UPDATE point_accounts SET total_points = total_points - ? WHERE passid = ?";
+17:         pstmt = conn.prepareStatement(updateSql1);
+18:         pstmt.setInt(1, numPoints);
+19:         pstmt.setString(2, src_id);
+20:         pstmt.executeUpdate();
+21:         pstmt.close();
+
+
+An error occurred at line: [26] in the jsp file: [/TransferPoints.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+23:         // Add the specified number of points to the destination passenger's point account
+24:         String updateSql2 = "UPDATE point_accounts SET total_points = total_points + ? WHERE passid = ?";
+25:         pstmt = conn.prepareStatement(updateSql2);
+26:         pstmt.setInt(1, numPoints);
+27:         pstmt.setString(2, dest_id);
+28:         pstmt.executeUpdate();
+29:         pstmt.close();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/TransferPoints.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+15:         // Deduct the specified number of points from the source passenger's point account
+16:         String updateSql1 = "UPDATE point_accounts SET total_points = total_points - ? WHERE passid = ?";
+17:         pstmt = conn.prepareStatement(updateSql1);
+18:         pstmt.setInt(1, numPoints);
+19:         pstmt.setString(2, src_id);
+20:         pstmt.executeUpdate();
+21:         pstmt.close();
+
+
+An error occurred at line: [26] in the jsp file: [/TransferPoints.jsp]
+The method setInt(int, int) in the type PreparedStatement is not applicable for the arguments (int, String)
+23:         // Add the specified number of points to the destination passenger's point account
+24:         String updateSql2 = "UPDATE point_accounts SET total_points = total_points + ? WHERE passid = ?";
+25:         pstmt = conn.prepareStatement(updateSql2);
+26:         pstmt.setInt(1, numPoints);
+27:         pstmt.setString(2, dest_id);
+28:         pstmt.executeUpdate();
+29:         pstmt.close();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 06:42:35.625 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:42:35.625 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:42:39.140 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:42:39.140 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:42:39.142 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@28768e25')
+29-Apr-2023 06:42:41.510 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:42:41.510 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:42:45.474 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:42:45.475 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:42:45.476 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@28768e25')
+29-Apr-2023 06:43:03.283 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:43:03.283 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:43:07.988 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:43:07.988 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:43:07.989 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@234cd86c')
+29-Apr-2023 06:43:13.908 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/TransferPoints.jsp]
+Type mismatch: cannot convert from String to int
+1: <%@ page import="java.sql.*" %>
+2: <%
+3:     int numPoints = request.getParameter("numPoints");
+4:     String src_id = request.getParameter("src_id");
+5:     String dest_id = request.getParameter("dest_id");
+6:     
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/TransferPoints.jsp]
+Type mismatch: cannot convert from String to int
+1: <%@ page import="java.sql.*" %>
+2: <%
+3:     int numPoints = request.getParameter("numPoints");
+4:     String src_id = request.getParameter("src_id");
+5:     String dest_id = request.getParameter("dest_id");
+6:     
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:509)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 06:44:52.082 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:44:52.082 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:44:55.435 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:44:55.435 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:44:55.437 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5f8f1712')
+29-Apr-2023 06:45:04.383 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:45:04.383 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:45:07.616 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:45:07.616 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:45:07.620 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@236c098')
+29-Apr-2023 06:45:15.958 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/frequentflier] threw exception [An exception occurred processing [/TransferPoints.jsp] at line [37]
+
+34:     } catch (Exception e) {
+35:         e.printStackTrace();
+36:         if (conn != null) {
+37:             conn.rollback();
+38:         }
+39:         out.println("Error transferring points: "+e.getMessage());
+40:     }
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: Could not rollback with auto-commit set on
+		at oracle.jdbc.driver.PhysicalConnection.rollback(PhysicalConnection.java:2269)
+		at org.apache.jsp.TransferPoints_jsp._jspService(TransferPoints_jsp.java:154)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+29-Apr-2023 06:49:39.858 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:49:39.858 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:49:43.253 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:49:43.254 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:49:43.255 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@34a6d9db')
+29-Apr-2023 06:49:48.150 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:49:48.150 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:49:51.902 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:49:51.902 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:49:51.904 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@120aa40b')
+29-Apr-2023 06:55:37.468 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:55:37.468 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:55:41.259 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:55:41.259 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:55:41.260 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18ffca6c')
+29-Apr-2023 06:55:54.866 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:55:54.866 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:55:58.185 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:55:58.185 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:55:58.187 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@39c87b42')
+29-Apr-2023 06:57:37.573 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:57:37.573 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:57:41.427 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:57:41.427 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:57:41.429 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2055833f')
+29-Apr-2023 06:57:48.709 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 06:57:48.709 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 06:57:52.940 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 06:57:52.940 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 06:57:52.942 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6ad6443')
+29-Apr-2023 07:01:22.812 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 07:01:22.812 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 07:01:26.731 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 07:01:26.731 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 07:01:26.733 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5dbab232')
+29-Apr-2023 07:01:34.823 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 07:01:34.823 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 07:01:38.946 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 07:01:38.946 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 07:01:38.947 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@234cd86c')
+29-Apr-2023 07:05:48.124 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 07:05:48.124 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 20:24:06.191 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 20:24:06.191 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 20:24:06.193 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@c568f91')
+29-Apr-2023 21:03:35.399 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 21:03:35.399 INFO [Thread-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 21:07:53.811 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 21:07:53.811 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 21:07:53.813 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2f0ccb34')
+29-Apr-2023 21:09:12.730 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 21:09:12.730 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 21:09:17.374 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 21:09:17.374 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 21:09:17.378 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@231df705')
+29-Apr-2023 21:14:35.778 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 21:14:35.778 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 21:14:40.327 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 21:14:40.327 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 21:14:40.330 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@70b48eb3')
+29-Apr-2023 21:21:25.201 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Apr-2023 21:21:25.201 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Apr-2023 21:21:29.948 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Apr-2023 21:21:29.948 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Apr-2023 21:21:29.950 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2f0ccb34')
